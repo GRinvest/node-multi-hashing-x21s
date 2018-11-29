@@ -30,7 +30,6 @@
                 "Sponge.c",
                 "tribus.c",
                 "sha1.c",
-                "gost.c",
                 "sha3/extra.c",
                 "sha3/sph_sha2.c",
                 "sha3/hamsi.c",
