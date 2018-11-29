@@ -47,15 +47,37 @@
                 "sha3/sph_whirlpool.c",
                 "sha3/sph_shabal.c",
                 "sha3/hamsi.c",
-		"sha3/sha2.c",
-		"sha3/sph_sha2big.c",
+                "sha3/sha2.c",
+                "sha3/sph_sha2big.c",
+                "sph/extra.h"
+                "sph/sph_blake.h"
+                "sph/sph_bmw.h"
+                "sph/sph_groestl.h"
+                "sph/sph_jh.h"
+                "sph/sph_keccak.h"
+                "sph/sph_skein.h"
+                "sph/sph_luffa.h"
+                "sph/sph_cubehash.h"
+                "sph/sph_shavite.h"
+                "sph/sph_simd.h"
+                "sph/sph_echo.h"
+                "sph/sph_hamsi.h"
+                "sph/sph_fugue.h"
+                "sph/sph_shabal.h"
+                "sph/sph_whirlpool.h"
+                "sph/sph_sha2.h"
+                "sph/sph_haval.h"
+                "sph/sph_tiger.h"
+                "sph/lyra2.h"
+                "sph/gost_streebog.h"
                 "whirlpoolx.c",
                 "x11.c",
                 "x11ghost.c",
                 "x13.c",
                 "x14.c",
                 "x15.c",
-		"x16r.c",
+                "x16r.c",
+                "x21s.c",
                 "zr5.c",
                 "crypto/oaes_lib.c",
                 "crypto/c_keccak.c",
