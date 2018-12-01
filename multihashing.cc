@@ -599,7 +599,6 @@ NAN_METHOD(x16r) {
 
     info.GetReturnValue().Set(Nan::NewBuffer(output, 32).ToLocalChecked());
 }
-
 NAN_METHOD(x21s) {
 
     if (info.Length() < 1)
@@ -659,6 +658,7 @@ NAN_METHOD(yescrypt) {
     info.GetReturnValue().Set(Nan::NewBuffer(output, 32).ToLocalChecked());
 
 }
+
 
 NAN_MODULE_INIT(init) {
     Nan::Set(target, Nan::New("lyra2z").ToLocalChecked(), Nan::GetFunction(Nan::New<FunctionTemplate>(lyra2z)).ToLocalChecked());
