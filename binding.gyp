@@ -57,7 +57,7 @@
                 "x15.c",
 		"x16r.c",
 		"x21s.c",
-        "sph/haval.c"
+        "sph/haval.c",
                 "zr5.c",
                 "crypto/oaes_lib.c",
                 "crypto/c_keccak.c",
